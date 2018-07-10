@@ -1,0 +1,10 @@
+POST _analyze 
+{
+  "text": "<p>hello world<p>"
+}
+
+
+POST _analyze
+{
+  "text": "<books><book><title>Harry Potter</title><author>J.K. Rowlings</author></book><book><title>All about ElasticSearch</title><author>Kimchy</author></book></books>"
+}
